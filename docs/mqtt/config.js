@@ -1,9 +1,7 @@
-// host = '172.16.153.122';	// hostname or IP address
 host = '127.0.0.1';	// hostname or IP address
-// host = '172.16.153.110';	// hostname or IP address
-port = 9001;
+port = 8883;
 topic = '#';		// topic to subscribe to
-useTLS = false;
+useTLS = true;
 username = null;
 password = null;
 // username = "jjolie";
@@ -13,7 +11,7 @@ password = null;
 //    defaults to "/mqtt"
 //    may include query and fragment
 //
-// path = "/mqtt";
+//path = "";
 // path = "/data/cloud?device=12345";
 
 cleansession = true;
